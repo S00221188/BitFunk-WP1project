@@ -1,0 +1,76 @@
+.navbar {
+    background-color: #000;
+  }
+  
+  .navbar-brand {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #00ff00;
+  }
+  
+  .form-inline .form-control {
+    background-color: #111;
+    border-color: #00ff00;
+    color: #00ff00;
+  }
+  
+  .btn-outline-success {
+    color: #00ff00;
+    border-color: #00ff00;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #00ff00;
+    color: #000;
+  }
+  
+  .btn-outline-secondary {
+    color: #888;
+    border-color: #888;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #888;
+    color: #fff;
+  }
+  
+  .card {
+    background-color: #000;
+    border-color: #00ff00;
+    color: #fff;
+    height: 200px; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-title {
+    color: #00ff00;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .container {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .row {
+    margin: -10px;
+  }
+  
+  .col {
+    padding: 10px;
+    flex: 0 0 calc(33.33% - 20px); 
+     margin-bottom: 20px;
+  }
+  
